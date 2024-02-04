@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="acont.css">
+    
+</head>
+  <body onload="openPopup()">
+
+    <div id="popup" class="popup">
+       <form id="loginForm">
+        <img id="userImage" src="default-user-image.png" alt="Imagem">
+        <br>
+        <label for="uploadInput" class="link-text"><em><strong>Click aqui para adicionar uma foto</strong></em></label>
+        <br>
+        
+        <input type="file" id="uploadInput" style="display: none" onchange="changeImage()">
+       </form>
+        <br>
+        <br>
+        <br>
+        <a href="" id="suport" onclick="suport()">Support</a>
+        <div id="Copyright">
+            
+            <p>Copyright &copy; 2024 CN-Esports</p>
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <button id="Fechar">Fechar</button>
+
+    </div>
+
+    <img src="../TelaFinal/imgs2/LOGO_2.png" alt="" class="Logo-Acont">
+    <script src="acont.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #04143E;
+  overflow-x: hidden;
+}
+.logo{
+  position: relative;
+  top: -50px;
+  width: 100vw;
+}
+
+.Icon-casa{
+  margin: 0 30px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.426);
+}
+.Menu{
+  margin: 0 40px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.426);
+}
+.Acont{
+  margin: 0 30px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.426); /* Ajuste os valores conforme necessário */
+}
+
+.barra-de-navegation{
+  position: fixed;
+  top: 720px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #07287cba;
+  border-radius: 100px;
+}
+.barra{
+  position: relative;
+  top: 2px;
+ 
+}
+
+

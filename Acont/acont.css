@@ -1,0 +1,77 @@
+body {
+  background-color: #04143E;
+  
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.898);
+  border: 1px solid #6c6a6a;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+#userImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 50px;
+}
+
+#Copyright {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#Copyright p {
+  margin: 5px 0;
+}
+
+#suport{
+color: rgba(0, 0, 255, 0.678);
+position: relative;
+left: 40px;
+}
+
+#Fechar{
+  background-color: #003efa;
+ color: rgb(255, 255, 255);
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+cursor: pointer;
+ position: relative;
+left: 25px;
+}
+
+.Logo-Acont{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.link-text{
+  color: rgb(14, 35, 143);
+  
+}
+
+.butao-garda{
+  background-color: #003efa;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+ cursor: pointer;
+  position: relative;
+ left: 25px;
+}

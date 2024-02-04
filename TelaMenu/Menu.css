@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&family=Vesper+Libre&display=swap');
+body{
+  background-color: #04143E;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.fundo-menu{
+  background-size: cover;
+  background-position: center;
+ background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  
+}
+
+.voltar-2{
+  width: 62px;
+  height: 58px;
+  position: relative;
+  top: 25px;
+  right: -10px;
+}
+
+.discord{
+  position: relative;
+  top: 125px;
+  left: 54px;
+}
+
+.discord-img{
+ 
+  height: 90px;
+  width: 90px;
+  
+  border-radius: 20px;
+}
+
+.TikTok-img{
+  height: 90px;
+  width: 90px;
+  border-radius: 20px;
+}
+.TikTok{
+  position: relative;
+  top: 30px;
+  left: 165px;
+}
+
+.whatsapp-img{
+  height: 90px;
+  width: 90px;
+  
+  border-radius: 20px;
+}
+
+.whatsapp{
+  position: relative;
+  top: 55px;
+  left: 165px;
+}
+.youtube-img{
+  height: 90px;
+  width: 90px;
+  border-radius: 20px;
+}
+
+.youtube{
+  position: relative;
+  top: -40px;
+  left: 54px;
+}
+
+.barra-vertical{
+  
+  position: relative;
+  top: -50px;
+  border-radius: 50px;
+}
+
+.Donos{
+  color: rgb(235, 217, 97);
+  font-family: 'Teko', sans-serif;
+  position: relative;
+  text-align: center;
+}
+
+.lista-Donos{
+  color: rgb(255, 251, 0);
+  font-family: 'Sixtyfour', sans-serif;
+font-family: 'Vesper Libre', serif;
+}
+.listadonos{
+  position: relative;
+  top: 10px;
+}
+
+.geral-app{
+  position: relative;
+  top: -108px;
+  left: 50px;
+  
+}
+
+.dev{
+  position: relative;
+  text-align: center;
+  color: rgb(97, 125, 125);
+  font-family: 'Sixtyfour', sans-serif;
+  font-size: large;
+}
+
+@keyframes changeColor {
+  0% {
+    color: rgb(255, 0, 0); /* Vermelho */
+  }
+  25% {
+    color: rgb(255, 255, 0); /* Amarelo */
+  }
+  50% {
+    color: rgb(0, 255, 0); /* Verde */
+  }
+  75% {
+    color: rgb(0, 255, 255); /* Ciano */
+  }
+  100% {
+    color: rgb(255, 0, 255); /* Magenta */
+  }
+}
+
+
+.Desenvolverdor{
+  position: relative;
+  text-align: center;
+  color: azure;
+  font-size: 24px;
+  animation: changeColor 4.5s infinite; /* 5 segundos para uma transição completa, repetição infinita */
+}
+
+.copy{
+  color: rgb(137, 148, 226);
+  position: relative;
+  text-align: center;
+}
+
+#aviso{
+  background-color: transparent;
+  color: rgb(191, 255, 0);
+  position: relative;
+  text-align: center;
+  top: 95px;
+}
+.avisobotun{
+  background-color: #003efa;
+ color: rgb(255, 255, 255);
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+cursor: pointer;
+}
